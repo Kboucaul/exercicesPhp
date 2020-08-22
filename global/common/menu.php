@@ -20,7 +20,9 @@
             Moyen
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="../../2-moyen/exo1.php">exo1</a>
+                <?php for($i=1;$i <= 7;$i++) : ?>
+                <a class="dropdown-item" href="../../2-moyen/exo<?=$i?>/index.php">exo<?=$i?></a>
+                 <?php endfor; ?>
             </div>
         </li>
         <li class="nav-item dropdown">
